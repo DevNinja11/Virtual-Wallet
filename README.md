@@ -19,12 +19,12 @@ We have developed a fintech web application that allows users to send money onli
 
 ## Key Features
 - User Registration and Email Confirmation
-Transaction Confirmation
-Multiple Wallets and Cards
-Referral System
-Detailed Transaction History
-User Profile Management
-Donation Feature
+- Transaction Confirmation
+- Multiple Wallets and Cards
+- Referral System
+- Detailed Transaction History
+- User Profile Management
+- Donation Feature
 
 ## Getting Started Prerequisites
 Java JDK 11 or higher
