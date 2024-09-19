@@ -1,38 +1,33 @@
 ## Final Team Project at Telerik Academy: Virtual Wallet Web Application
-![](application-screenshots/logo.PNG)
 
+## Project Overview
+We have developed a fintech web application that allows users to send money online through their virtual wallets. Users can create their own virtual wallets, add credit cards, and top-up money from an external banking API integrated into our system. The application provides a seamless experience for transferring money between users while ensuring security and user engagement through various features.
 
-### Project Overview: 
-We have developed a fintech web application, where users can send money online through their virtual wallets. Users can create their own virtual wallets, add credit cards and top-up money from an external "banking" API that our system uses. They can then send money from their wallets to other users. There a number of features implemented, such as:
-* Email confirmation for new users.
-* Email confirmation for large transactions with an expiry period.
-* Multiple cards (edit/delete) and wallets ("make primary wallet" feature).
-* Referral system, where users can refer their friends by having our system send a registration link via an e-mail and receive 20 euro bonus, if the registration is completed within the expiry period
-* Detailed Transaction History, where users can filter Transactions by Date, Direction (Incoming/Outgoing), Counterparty, and sort by Amount and Date.
-* Under the "My profile" page, the user can see his personal information, his default wallet and total saldo, latest 3 transactions and a bonus feature of "inspirational quotes". Users can edit their personal details and change passwords. 
-* Donation feature, where users can choose to donate a euro upon topping-up (just like with some Bulgarian ATMs). The money go to a specifically created Donation Project User Account, and the total gathered sum from donations is visible on the homepage.
+## Key Features
+User Registration and Email Confirmation: New users receive an email confirmation upon registration.
+Transaction Confirmation: Large transactions require email confirmation with an expiry period.
+Multiple Wallets and Cards: Users can create multiple wallets and cards, with options to edit or delete them and designate a primary wallet.
+Referral System: Users can refer friends through a registration link sent via email and receive a €20 bonus if the registration is completed within the expiry period.
+Detailed Transaction History: Users can filter their transaction history by date, direction (Incoming/Outgoing), counterparty, and sort by amount and date.
+User Profile Management: Users can view and edit their personal information, default wallet, total saldo, latest three transactions, and receive inspirational quotes.
+Donation Feature: Users have the option to donate €1 upon topping-up, contributing to a designated Donation Project User Account. The total sum gathered from donations is displayed on the homepage.
 
-**We have used the following backend technologies:**
-* Spring MVC and Spring Boot framework
-* Hibernate
-* Spring security
+## Tech Stack
 
-**Additionally, we have used the following frontend technologies:**
-* Spring MVC Framework with Thymeleaf template engine
-* JavaScript and jQuery custom functions to help with certain features (e.g. popup modal confirming Transaction details)
-* A free CSS template which we further customized.
+## Backend Technologies
+Spring Framework: Utilized both Spring MVC and Spring Boot for creating robust RESTful services and handling web requests.
+Hibernate: Employed for Object-Relational Mapping (ORM) to manage database interactions seamlessly.
+Spring Security: Integrated for authentication and authorization to ensure the security of user data and transactions.
 
-### How to build and run the project:
+## Frontend Technologies
+Spring MVC with Thymeleaf: Used for rendering dynamic web pages and templates.
+JavaScript & jQuery: Custom scripts enhance user interactions, including features like pop-up modals for confirming transaction details.
+CSS: A free CSS template was customized to align with the application’s branding and user experience requirements.
 
-Firstly, download the project folder. 
-
-To use the project, a MariaDB database is required. The necessary login credentials should be updated in the **application.properties** file located under VirtualWallet\src\main\resources.
-
-Then, the scripts for creating the database schema can be found in VirtualWallet\src\main\resources\sql\schema.sql.
-
-The test data with all SQL scripts can be found in VirtualWallet\src\main\resources\sql\schema-data.sql.
-
-Then, to build and run the project, assuming you are using IntelliJ IDEA Ultimate Edition, simply run **VirtualWalletApplication.class** located under VirtualWallet\src\main\java\a16team1\virtualwallet.
+## Getting Started Prerequisites
+Java JDK 11 or higher
+Maven
+MySQL or any other relational database
 
 ### Screenshots of the application:
 
@@ -76,3 +71,6 @@ Then, to build and run the project, assuming you are using IntelliJ IDEA Ultimat
 ![](application-screenshots/wallets/3.PNG)
 ![](application-screenshots/wallets/1.PNG)
 ![](application-screenshots/cards/1.PNG)
+
+## My Contribution
+In this project, I took on the role of a full-stack Java developer, overseeing the development of our fintech web application from start to finish. I focused primarily on the backend, using Spring MVC, Spring Boot, and Hibernate to create secure and efficient APIs for managing user transactions and wallets. My friends contributed their skills on the frontend, customizing the Thymeleaf templates and enhancing user interactions with JavaScript and jQuery. Together, we built a cohesive and user-friendly platform that provides a seamless experience for our users.
