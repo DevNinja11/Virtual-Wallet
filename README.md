@@ -35,17 +35,6 @@ We have developed a fintech web application that allows users to send money onli
 #### My profile and edit details:
 ![](application-screenshots/my-profile/1.PNG)
 
-#### Transaction history and filtering:
-![](application-screenshots/transaction-history/1.PNG)
-
-#### Making a transaction:
-![](application-screenshots/transaction/1.PNG)
-
-#### Add funds to wallet with Donation feature:
-![](application-screenshots/transaction/4.PNG)
-
-#### Wallets and cards:
-![](application-screenshots/wallets/2.PNG)
 
 ## My Contribution
 In this project, I took on the role of a full-stack Java developer, overseeing the development of our fintech web application from start to finish. I focused primarily on the backend, using Spring MVC, Spring Boot, and Hibernate to create secure and efficient APIs for managing user transactions and wallets. My friends contributed their skills on the frontend, customizing the Thymeleaf templates and enhancing user interactions with JavaScript and jQuery. Together, we built a cohesive and user-friendly platform that provides a seamless experience for our users.
