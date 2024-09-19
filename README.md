@@ -1,9 +1,8 @@
 ## Final Team Project at Telerik Academy: Virtual Wallet Web Application
 ![](application-screenshots/logo.PNG)
 
-*I am happy to provide the commit history upon request.*
 
-### Short description: 
+### Project Overview: 
 We have developed a fintech web application, where users can send money online through their virtual wallets. Users can create their own virtual wallets, add credit cards and top-up money from an external "banking" API that our system uses. They can then send money from their wallets to other users. There a number of features implemented, such as:
 * Email confirmation for new users.
 * Email confirmation for large transactions with an expiry period.
