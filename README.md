@@ -1,5 +1,5 @@
 ## Project Overview
-We have developed a fintech web application that allows users to send money online through their virtual wallets. Users can create their own virtual wallets, add credit cards, and top-up money from an external banking API integrated into our system. The application provides a seamless experience for transferring money between users while ensuring security and user engagement through various features.
+Developed this fintech web application that allows users to send money online through their virtual wallets. Users can create their own virtual wallets, add credit cards, and top-up money from an external banking API integrated into our system. The application provides a seamless experience for transferring money between users while ensuring security and user engagement through various features.
 
 
 ### Tech Stack
